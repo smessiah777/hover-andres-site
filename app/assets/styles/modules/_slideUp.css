@@ -1,0 +1,16 @@
+.slideUp{
+	animation-name: slideUp;
+	animation-duration: 0.5s;	
+	animation-timing-function: linear;	
+	visibility: visible !important;			
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+		
+	100% {
+		transform: translateY(0%);
+	}	
+}

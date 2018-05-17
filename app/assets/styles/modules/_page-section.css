@@ -1,0 +1,28 @@
+.page-section {
+  margin-top: 70px;
+  padding: 1.2rem 0;
+
+  @mixin atMedium {
+    margin-top: 93px;
+    padding: 4.5rem 0;
+  }
+  
+  &--no-b-padding-until-medium {
+    padding-bottom: 0;
+
+    @mixin atMedium {
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  &--no-b-padding-until-large {
+    padding-bottom: 0;
+
+    @mixin atLarge {
+      padding-bottom: 4.5rem;
+    }
+  }
+
+  
+
+}

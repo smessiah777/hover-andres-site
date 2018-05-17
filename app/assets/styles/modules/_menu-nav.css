@@ -1,0 +1,26 @@
+.menu-nav {
+	
+
+	ul {
+		margin: 0px;
+		padding: 0px;
+		@mixin clearfix;
+
+	}
+
+	li {
+		list-style: none;
+		text-align: center;
+		text-transform: uppercase;
+
+	}
+
+	a {
+		color: #FFF;
+
+
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+}

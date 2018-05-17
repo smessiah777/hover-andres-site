@@ -1,0 +1,31 @@
+body {
+ font-family: 'Nova Square', cursive;
+  background-color:#000000;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	color: #ed1f24;
+	font-family: 'Nova Square', cursive;
+}
+
+a:hover {
+	color: #173348;
+}
+
+i {
+	text-align: center;
+	font-family: 'Nova Square', cursive;
+}

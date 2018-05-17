@@ -1,0 +1,31 @@
+.site-header{
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 70px;
+	top: 0;
+	z-index: 2;
+
+
+	&__menu-icon {
+		color:$mainRed;
+		width: 20px;
+		height: 19px;
+		font-size: 	1.375rem;
+		line-height: 10px;
+		position: absolute;
+		z-index: 10;
+		top: 30px;
+		left: 15px;
+		cursor: pointer;
+
+		@mixin atMedium {
+			top: 20px;
+			left: 30px;
+			font-size: 2rem;
+		}
+	}
+
+
+	
+}

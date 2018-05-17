@@ -1,0 +1,39 @@
+.social-section {
+		margin-top: 0px;
+
+
+	ul{
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	li{
+		display: inline-block;
+		margin-right: auto;
+		margin-left: auto;
+
+	 @mixin atMedium {
+	 	padding-right: 20px;
+	 }
+	}
+	
+	a {
+		
+		font-size: 3rem;
+		padding: 0 20px;
+		text-align: center;
+		display: inline-block; 
+		margin-right: auto;
+		margin-left: auto;
+		transition: all 0.3s ease;
+
+	@mixin atMedium {
+		font-size: 5rem;
+		padding: 0 40px;
+	}
+
+
+	}
+
+
+}
