@@ -1,0 +1,16 @@
+::HA web Bird Sizes::
+
+Smaller:
+612 x 554
+
+Small:
+673 x 610
+
+medium:
+886 x 581
+
+large2:
+1311 x 667
+
+large:
+1230 x 727
